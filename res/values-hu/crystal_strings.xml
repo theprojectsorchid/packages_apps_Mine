@@ -103,4 +103,140 @@
     <string name="disable_usercard_title">Beállítások Felhasználó kártya</string>
     <string name="disable_usercard_summary">Ki-Bekapcsolja a felhasználó kártyát a Beállítások kezdőoldalán</string>
 
-</resources> 
+    <string name="aosp_gestures_title">AOSP Gesztus beállítások</string>
+    <string name="aosp_gestures_summary">AOSP-ben alapból megtalálható gesztus beállítások</string>
+
+    <!-- Show LTE/4G switch -->
+    <string name="show_fourg_title">4G ikon LTE helyett</string>
+    <string name="show_fourg_summary">Lecseréli az értesítési sávon található LTE ikont 4G ikonra</string>
+
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Mutassa a mobiladat letiltva ikont</string>
+    <string name="data_disabled_icon_summary">Jelenítse meg az X-et a térerő ikon mellett amikor a mobilinternet ki van kapcsolva</string>
+
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Barangolás ikon</string>
+    <string name="roaming_indicator_icon_summary">Jelenítse meg az R betűt adatbarangolás módban</string>
+
+    <!-- Statusbar double tap to sleep -->
+    <string name="double_tap_to_sleep_title">Dupla koppintásra alvás az értesítési sávon</string>
+    <string name="double_tap_to_sleep_summary">Érintse meg kétszer az értesítési sávot az eszköz altatásához</string>
+
+    <!-- Lockscreen double tap to sleep -->
+    <string name="double_tap_sleep_lockscreen_title">Dupla koppintásra alvás a zárképernyőn</string>
+    <string name="double_tap_sleep_lockscreen_summary">Érintse meg kétszer a zárképernyőt az eszköz altatásához</string>
+
+    <!-- Lockscreen statusbar -->
+    <string name="hide_lockscreen_status_bar_title">Zárképernyő értesítési sáv</string>
+    <string name="hide_lockscreen_status_bar_summary">Rejtse el az értesítési sávot a zárképernyőt</string>
+
+    <!-- Quick QS Pulldown -->
+    <string name="status_bar_quick_qs_pulldown">Gyors beállítások egyszerű lenyitása</string>
+    <string name="quick_pulldown_none">Kikapcsolva</string>
+    <string name="quick_pulldown_right">Jobb oldalt</string>
+    <string name="quick_pulldown_left">Bal oldalt</string>
+    <string name="quick_pulldown_always">Mindig</string>
+
+    <!-- Lockscreen battery info -->
+    <string name="lockscreen_charging_info_title">Zárképernyő töltés infó</string>
+    <string name="lockscreen_charging_info_summary">Mutassa a hőmérsékletet, a töltő áramot és egyebeket töltés közben a zárképernyőn</string>
+
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Kényszerített leállítás gomb</string>
+    <string name="notification_guts_kill_app_button_summary">Mutassa a kényszerített leállítás gombot az értesítés hosszan nyomásakor</string>
+
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Zenelejászó indítása</string>
+    <string name="headset_connect_player_summary">Indítsa el az alapértelmezett zenelejátszó alkalmazást vezetékes füllhallgató csatlakoztatásakor</string>
+
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Töltés animáció</string>
+    <string name="charging_animation_summary">Jelenítsen meg töltési animációt az eszköz töltőre csatlakoztatásakor</string>
+
+    <!-- Ignore secure window -->
+    <string name="ignore_window_secure_title">Hagyja figyelmen kívül a védett jelzőt</string>
+    <string name="ignore_window_secure_summary">Eltávolítja a képernyőkép és képernyővideó limitációkat minden alkalmazáson. Alapesetben a védett alkalmazások területe feketével van elfedve a felvételeken. Ez néhány esetben jól jöhet de adatszivárgáshoz vezethet. Ezen beállítás módosítása után lehet, hogy újra kell indítani a célalkalmazást a módosítás érvénybe léptetéséhez</string>
+
+    <!-- Burn-in Protection -->
+    <string name="unit_x1000ms">x1000 ms</string>
+    <string name="burnin_category">Beégés Védelem</string>
+    <string name="burn_in_protection_title">Beégés védelem</string>
+    <string name="burn_in_protection_summary">Elmozgatja az értesítési és navigációs sáv ikonokat hogy megakadályozza azok beégését</string>
+    <string name="burn_in_protection_interval_title">Elmozgatás gyakorisága</string>
+    <string name="burn_in_protection_interval_summary">Milyen gyakran mozduljanak el az ikonok</string>
+
+    <!-- Tiles on secure keyguard -->
+    <string name="use_tiles_on_secure_keyguard_title">Feloldás érzékeny csempékhez</string>
+    <string name="use_tiles_on_secure_keyguard_summary">Fel kelljen oldani az eszközt az értékeny gyorsbeállítások csempék használatához</string>
+
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Alert slider értesítések</string>
+    <string name="alert_slider_notifications_summary">Jelenítsen meg értesítést az Alert slider állapotának változásakor</string>
+
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Hangerő léptetés</string>
+    <string name="volume_steps_summary">Szabja testre a hangerő léptetését</string>
+    <string name="volume_steps_alarm_title">Hangerő lépések: Ébresztés</string>
+    <string name="volume_steps_dtmf_title">Hangerő lépések: Tárcsázó</string>
+    <string name="volume_steps_music_title">Hangerő lépések: Média</string>
+    <string name="volume_steps_notification_title">Hangerő lépések: Értesítések</string>
+    <string name="volume_steps_ring_title">Hangerő lépések: Csörgés</string>
+    <string name="volume_steps_system_title">Hangerő lépések: Rendszer</string>
+    <string name="volume_steps_voice_call_title">Hangerő lépések: Hívás</string>
+    <string name="volume_steps_reset">Visszaállítás</string>
+
+    <!-- Volume panel to left -->
+    <string name="volume_panel_on_left_title">Bal oldali hangerő panel</string>
+    <string name="volume_panel_on_left_summary">A hangerő panel a képernyő bal oldaláról nyíljon</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Érintéskor rezegjen</string>
+    <string name="quick_settings_vibrate_summary">Rezegjen az eszköz amikor megérinti a GyorsBeállítások csempék egyikét</string>
+
+    <!-- Tiles animation style -->
+    <string name="qs_tile_animation_style_title">Animáció stílusa</string>
+    <string name="qs_tile_animation_duration_title">Animáció hossza</string>
+    <string name="qs_tile_animation_interpolator_title">Csempe animáció interpolációja</string>
+    <string name="qs_tile_animation_style_off">Nincs animáció</string>
+    <string name="qs_tile_animation_style_flip">Pörgetés</string>
+    <string name="qs_tile_animation_style_rotate">Forgatás</string>
+    <string name="qs_tile_animation_duration_low">Lassú</string>
+    <string name="qs_tile_animation_duration_default">Alapértelmezett</string>
+    <string name="qs_tile_animation_duration_fast">Gyors</string>
+    <string name="qs_tile_animation_duration_quite_fast">Elég gyors</string>
+    <string name="qs_tile_animation_duration_super_fast">Szuper gyors</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Lineáris</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Gyorsítás</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Lassítás</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Gyorsítás majd lassítás</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Pattogás</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Túlpörgetés</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Megelőzés</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Megelőző túlpörgetés</string>
+    <string name="qs_set_animation_style">%1$s</string>
+    <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_set_animation_interpolator">%1$s</string>
+
+    <!-- Screen off animation -->
+    <string name="screen_off_animation_title">Képernyő kikapcsolási animáció</string>
+    <string name="screen_off_animation_crt" translatable="false">CRT</string>
+    <string name="screen_off_animation_scale">Skálázás</string>
+
+    <!--Volume keys -->
+    <string name="volume_rocker_wake_title">Hangerőre keltés</string>
+    <string name="volume_rocker_wake_summary">A hangerő gombok valamelyikének megnyomása felkelti az eszközt</string>
+
+    <!-- Volume button swap on rotate -->
+    <string name="swap_volume_buttons_title">Gomb forgatás</string>
+    <string name="swap_volume_buttons_summary">Hangerő gombok felcserélése ha az eszköz elforgatott állapotban van</string>
+
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Képernyő feloldási animáció</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Mutassa a fodrozódó effektet az eszköz ujjlenyomatos feloldásakor</string>
+
+    <!-- Power menu and dialogs opacity -->
+    <string name="panel_porn_title">Bekapcsoló menü homályosítás</string>
+    <string name="power_menu_transparency">Bekapcs/újraindítás menü homályosság</string>
+    <string name="power_menu_dialog_dim">Bekapcs/újraindítás dialógus háttér homályosításának mértéke</string>
+
+</resources>
