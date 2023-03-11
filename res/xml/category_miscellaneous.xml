@@ -93,4 +93,16 @@
 
     </PreferenceCategory>
 
+    <com.crystal.mine.preferences.SecureSettingSwitchPreference
+        android:key="gms_enabled"
+        android:title="@string/gms_enabled_title"
+        android:summary="@string/gms_enabled_summary"
+        android:defaultValue="true" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="gms_enabled_footer"
+        android:selectable="false"
+        settings:searchable="false"
+        android:dependency="gms_enabled" />
+
 </PreferenceScreen>

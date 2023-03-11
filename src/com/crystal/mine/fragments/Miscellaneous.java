@@ -54,6 +54,8 @@ public class Miscellaneous extends SettingsPreferenceFragment implements OnPrefe
     private static final String KEY_PHOTOS_SPOOF = "use_photos_spoof";
     private static final String KEY_SYSTEM_BOOST = "system_boost";
     private static final String KEY_STREAM_SPOOF = "use_stream_spoof";
+    private static final String KEY_GMS_ENABLED = "gms_enabled";
+    private static final String GMS_ENABLED_FOOTER = "gms_enabled_footer";
 
     private static final String SYS_GAMES_SPOOF = "persist.sys.pixelprops.games";
     private static final String SYS_PHOTOS_SPOOF = "persist.sys.pixelprops.gphotos";
@@ -70,6 +72,7 @@ public class Miscellaneous extends SettingsPreferenceFragment implements OnPrefe
     private SwitchPreference mSystemBoost;
     private SwitchPreference mPhotosSpoof;
     private SwitchPreference mStreamSpoof;
+    private SwitchPreference mGmsEnabled;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -99,6 +102,11 @@ public class Miscellaneous extends SettingsPreferenceFragment implements OnPrefe
         mStreamSpoof = (SwitchPreference) findPreference(KEY_STREAM_SPOOF);
         mStreamSpoof.setChecked("1".equals(useStreamSpoof));
         mStreamSpoof.setOnPreferenceChangeListener(this);
+
+        mGmsEnabled = (SwitchPreference) findPreference(KEY_GMS_ENABLED);
+        mGmsEnabled.setChecked(SystemProperties.getBoolean(KEY_GMS_ENABLED, true));
+        mGmsEnabled.setOnPreferenceChangeListener(this);
+        findPreference(GMS_ENABLED_FOOTER).setTitle(R.string.gms_enabled_footer);
     }
 
     @Override
@@ -134,6 +142,10 @@ public class Miscellaneous extends SettingsPreferenceFragment implements OnPrefe
             Toast.makeText(getActivity(),
                     (R.string.stream_spoof_toast),
                     Toast.LENGTH_LONG).show();
+            return true;
+        } else if (preference==mGmsEnabled) {
+            boolean value = (Boolean) newValue;
+            SystemProperties.set(KEY_GMS_ENABLED, value ? "true" : "false");
             return true;
         }
         return false;

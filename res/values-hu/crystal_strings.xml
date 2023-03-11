@@ -395,4 +395,10 @@
     <string name="use_stream_spoof_summary">Engedélyezi a jobb minőségű videók lejátszását Amazon Primeon, Disney+on, Hotstaron és Netflixen. (Az eredmény változó lehet)</string>
     <string name="stream_spoof_toast">Streamelő alkalmazás újraindítása a változások érvényesítéséhez</string>
 
+    <!-- Google services -->
+    <string name="gms_enabled_title">Google szolgáltatások</string>
+    <string name="gms_enabled_summary">Szabályozza a Google szolgáltatásokat és annak alkalmazásait</string>
+    <string name="gms_enabled_footer">A Google szolgáltatások kikapcsolása előtt győződjön meg róla, hogy a "Find My Device" és a kétlépcsős hitelesítés ki vannak kapcsolva a fiókjában. Ezt a beállítást erősen ajánlott bekapcsolva hagyni mivel gondot okozhat a Google függő alkalmazásokkal.
+    Ezen beállítás módosítása után újra be kell majd jelentkeznie Google fiókjába. Ha ezen beállítás megváltoztatása után hibát észlel, hajtson végre egy gyári visszaállítást!</string>
+
 </resources>
